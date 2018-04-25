@@ -44,8 +44,8 @@ public class LoginCheck extends HttpServlet {
 		if(username.equals("driver") && password.equals("1234"))
 		{
 			response.sendRedirect("driver.jsp");
-		}else if(username.equals("member") && password.equals("1234")) {
-			response.sendRedirect("member.jsp");
+		}else if(username.equals("customer") && password.equals("1234")) {
+			response.sendRedirect("customer.jsp");
 		}else if(username.equals("maintainer") && password.equals("1234")){
 			response.sendRedirect("maintainer.jsp");
 		}else if(username.equals("manager") && password.equals("1234")) {
