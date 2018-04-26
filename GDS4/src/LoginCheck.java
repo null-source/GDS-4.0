@@ -52,8 +52,10 @@ public class LoginCheck extends HttpServlet {
 			response.sendRedirect("manager.jsp");
 		}else if(username.equals("shopper") && password.equals("1234")) {
 			response.sendRedirect("shopper.jsp");
+		}else if(password.equals("")){
+			response.sendRedirect("passwordRecovery.jsp");
 		}else {
-		request.setAttribute("error","Invalid Username or Password");
+		request.setAttribute("error","\t\tinvalid username or password");
 		RequestDispatcher rd=request.getRequestDispatcher("/login.jsp");            
 		rd.include(request, response);
 		}

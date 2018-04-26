@@ -10,10 +10,11 @@ body {
 }
 </style>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Maintainer</title>
+<title>Password Recovery</title>
 </head>
 <body>
-maintainer
-<button type="button" name="logout" onclick="history.back()">logout</button>
+<center><h3>a link to reset your password has been sent to the email associated with your account</h3>
+<button type="button" name="logout" onclick="history.back()">back</button>
+</center>
 </body>
 </html>

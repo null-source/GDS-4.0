@@ -4,9 +4,16 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Grocery Delivery Service</title>
+<style>
+body {
+	background-color: linen;
+	font-family: "helvetica";
+}
+</style>
 </head>
 <body>
 customer
+<button type="button" name="logout" onclick="history.back()">logout</button>
 </body>
 </html>
