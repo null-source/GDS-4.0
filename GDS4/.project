@@ -32,12 +32,12 @@
 		<link>
 			<name>WebContent/Blue-Apron.png</name>
 			<type>1</type>
-			<location>C:/Users/cbuma/git/GDS-4.0/GDS4/WebContent/Blue-Apron.png</location>
+			<location>/home/stephanie/git/GDS-4.0/GDS4/WebContent/Blue-Apron.png</location>
 		</link>
 		<link>
 			<name>WebContent/GDSDRIVERLOL.jpg</name>
 			<type>1</type>
-			<location>C:/Users/cbuma/git/GDS-4.0/GDS4/WebContent/GDSDRIVERLOL.jpg</location>
+			<location>/home/stephanie/git/GDS-4.0/GDS4/WebContent/GDSDRIVERLOL.jpg</location>
 		</link>
 	</linkedResources>
 </projectDescription>

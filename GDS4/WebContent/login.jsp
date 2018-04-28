@@ -47,6 +47,15 @@ body {
 
 			</table>
 		</center>
+<br>
+<h3>TEST LINKS TO ALL OF THE EMPLOYEES:</h3>
+<a href="shopper.jsp">SHOPPER</a>
+<br>
+<a href="manager.jsp">MANAGER</a>
+<br>
+<a href="maintainer.jsp">STORAGE MAINTAINER</a>
+<br>
+<a href="driver.jsp">DRIVER</a>
 
 	</form>
 	<%

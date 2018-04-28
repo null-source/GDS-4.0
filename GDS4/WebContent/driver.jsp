@@ -13,11 +13,15 @@ body {
 </style>
 </head>
 <body>
-	<h3>welcome driver</h3>
+<a href="login.jsp">BACK</a>
+	<center><h1><i>D R I V E R</i></h1>
+	<a href="viewOrdersDriver.jsp">View orders</a>
+	<br>
+	</center>
 
 	<div
 		style='position: background; z-index: 0; left: 0; top: 0; width: 100%; height: 100%'>
-		<img src='GDSDRIVERLOL.jpg' style='width: 50%; height: 50%' alt='[]' />
+		<img src='GDSDRIVERLOL.jpg' style='width: 115px; height: 105px' alt='[]' />
 	</div>
 	<button type="button" name="logout" onclick="history.back()">logout</button>
 </body>

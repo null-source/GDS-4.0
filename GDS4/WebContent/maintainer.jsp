@@ -13,7 +13,15 @@ body {
 <title>Maintainer</title>
 </head>
 <body>
-maintainer
+<a href="login.jsp">BACK</a>
+<center>
+	<h1>MAINTAINER</h1>
+	<a href="viewInvMaintainer.jsp">View inventory</a>
+	<br>
+	<a href="maintainer.jsp">ALERTS</a>
+	<br>
+
+</center>
 <button type="button" name="logout" onclick="history.back()">logout</button>
 </body>
 </html>

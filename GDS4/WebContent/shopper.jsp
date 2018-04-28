@@ -13,7 +13,13 @@ body {
 <title>Shopper</title>
 </head>
 <body>
-shopper
-<button type="button" name="logout" onclick="history.back()">logout</button>
+<a href="login.jsp">BACK</a>
+	<center><h1><i>S H O P P E R </i></h1>
+	<h4><u>Clock in/out</u></h4>
+	<a href="viewOrders.jsp">View orders</a>
+	</center>
+	<br>
+	<br>
+	<button type="button" name="logout" onclick="history.back()">logout</button>
 </body>
 </html>
