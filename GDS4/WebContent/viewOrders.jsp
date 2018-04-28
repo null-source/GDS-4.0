@@ -17,6 +17,28 @@ body {
 <a href="shopper.jsp">BACK</a>
 <center>
 	<h1><i>VIEW ORDERS</i></h1>
+	<br>
+	<div>
+		<table>
+			<tr>
+				<td><i>Order Lookup</i></td>
+				<td><input type="text" name="orderID"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="SEARCH"></td>
+
+			</tr>
+		</table>
+	</div>
+	<div>
+		<table>
+			<tr>
+				<td>Orders</td>
+			</tr>
+		
+		</table>
+	</div>
 </center>
 </body>
 </html>

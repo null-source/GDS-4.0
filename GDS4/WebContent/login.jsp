@@ -17,45 +17,45 @@ body {
 		<h1>
 			<i> G R O C E R Y &ensp; D E L I V E R Y &ensp; S E R V I C E</i>
 		</h1>
+		<a href="shopper.jsp">SHOPPER</a> |
+		<a href="manager.jsp">MANAGER</a> |
+		<a href="maintainer.jsp">STORAGE MAINTAINER</a> |
+		<a href="driver.jsp">DRIVER</a>
+		
 	</center>
-
+<br>
 	<div
 		style='position: background; z-index: 0; left: 0; top: 0; width: 100%; height: 50%'>
-		<img src='Blue-Apron.png' style='width: 100%; height: 10%' alt='[]' />
+		<center>
+		<img src='Blue-Apron.png' style='width: 598px; height: 290px' alt='[]' />
+		</center>
 	</div>
+<br>
 	<form method="post" action="LoginCheck">
 		<center>
 			<table>
 				<tr>
-					<td><i>email/username</i></td>
+					<td><i>Email/Username</i></td>
 					<td><input type="text" name="username"></td>
 				</tr>
 				<tr>
-					<td><i>password</i></td>
+					<td><i>Password</i></td>
 					<td><input type="password" name="password"></td>
 				</tr>
 				<tr>
 					<td></td>
-					<td><input type="submit" value="login"></td>
+					<td><input type="submit" value="Login"></td>
 
 				</tr>
 				<tr>
 					<td></td>
-					<td><input type="submit" value="forgot password"></td>
+					<td><input type="submit" value="Forgot Password"></td>
 				</tr>
 
 
 			</table>
 		</center>
 <br>
-<h3>TEST LINKS TO ALL OF THE EMPLOYEES:</h3>
-<a href="shopper.jsp">SHOPPER</a>
-<br>
-<a href="manager.jsp">MANAGER</a>
-<br>
-<a href="maintainer.jsp">STORAGE MAINTAINER</a>
-<br>
-<a href="driver.jsp">DRIVER</a>
 
 	</form>
 	<%
