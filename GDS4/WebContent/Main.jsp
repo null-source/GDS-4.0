@@ -22,6 +22,7 @@ body {
 		<tr>
 			<td><input type="text" name="searchProducts"></td>
 			<td><input type="submit" value="SEARCH"></td>
+			<td><input type="submit" value="CART"></td>
 		</tr>
 	</table>
 	<br>

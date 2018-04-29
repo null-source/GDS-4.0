@@ -6,8 +6,8 @@
 <style>
 body {
 	background-color: linen;
-	font-family: "helvetica";
 }
+
 </style>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Maintainer</title>
@@ -16,12 +16,33 @@ body {
 <a href="login.jsp">BACK</a>
 <center>
 	<h1><i>MAINTAINER</i></h1>
-	<a href="viewInvMaintainer.jsp">View inventory</a>
+		<a href="viewInvMaintainer.jsp">View inventory</a>
 	<br>
-	<a href="maintainer.jsp">ALERTS</a>
 	<br>
-
 </center>
-<button type="button" name="logout" onclick="history.back()">logout</button>
+<div>
+	<center>
+	<h3>ALERTS</h3>
+		<table>
+			<tr>
+				<th> Date </th>
+				<th> Alert </th>
+			</tr>
+			<tr> 
+				<td>04/06/2018::</td> 
+				<td>Lettuce Expires 04/07/2018</td> 
+			</tr>
+			<tr> 
+				<td>04/02/2018::</td> 
+				<td>Milk Expires 04/04/2018</td> 
+			</tr>
+			<tr> 
+				<td>03/29/2018::</td> 
+				<td>Apples Expire 04/02/2018</td> 
+			</tr>
+		</table>
+	</center>
+</div>
+	<button type="button" name="logout" onclick="history.back()">logout</button>
 </body>
 </html>

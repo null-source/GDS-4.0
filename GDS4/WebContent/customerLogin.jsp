@@ -42,6 +42,7 @@ p {
 			</tr>
 		
 		</table>
+		<hr width=210>
 		<p> New to the grocery delivery system? 
 		<br>
 		<a href="register.jsp">Register</a>

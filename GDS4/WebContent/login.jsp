@@ -5,7 +5,7 @@
 <head>
 <style>
 body {
-	background-color: linen;
+	background-color: "white"";
 	font-family: "helvetica";
 }
 td {
