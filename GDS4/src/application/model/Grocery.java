@@ -1,5 +1,5 @@
 package application.model;
-import java.sql.Date;
+import java.util.Date;
 
 public class Grocery {
 	
@@ -11,13 +11,13 @@ public class Grocery {
 	public String itemId;
 	public int quantity;
 	
-	public Grocery (String itemId, String name, String desc, double price, int quantity, Date lastDt, String area) {
+	public Grocery (String itemId, String name, String desc, double price, int quantity, Date lastDt2, String area) {
 		this.itemId = itemId;
 		this.name = name;
 		this.desc = desc;
 		this.price = price;
 		this.quantity = quantity;
-		this.lastDt = lastDt;
+		this.lastDt = lastDt2;
 		this.area = area;
 	}
 
@@ -77,4 +77,7 @@ public class Grocery {
 		this.quantity = quantity;
 	}
 	
+	public String toString() {
+		
+	}
 }

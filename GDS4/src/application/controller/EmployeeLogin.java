@@ -19,10 +19,10 @@ public class EmployeeLogin extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
+		System.out.println("In here");
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
-		System.out.println("needs work");
+		
 		EmpHandle ch = new EmpHandle();
 		int valid = ch.empExist(username, password);
 		if (valid < 0) {
@@ -34,17 +34,19 @@ public class EmployeeLogin extends HttpServlet {
 			session.setAttribute("username", username);
 			switch(valid) {
 			case 0:
-				System.out.println("worked");
 				response.sendRedirect("manager.jsp");
 				break;	
 			case 1:
+				response.sendRedirect("maintainer.jsp");
 				break;
 			case 2:
+				response.sendRedirect("shopper.jsp");
 				break;
 			case 3:
+				response.sendRedirect("driver.jsp");
 				break;
-			case 4:
-				break;
+//			case 4:
+//				break;
 			default:
 				break;
 			}
