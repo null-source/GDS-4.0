@@ -37,6 +37,9 @@ td {
   text-align: center;
   vertical-align: middle;
 }
+div.c {
+    text-align: center;
+} 
 
 </style>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -87,7 +90,9 @@ td {
     </table>
   </div>
 </div>
-	
+<div class="c">
+	<input type="submit" value="Add to cart">
+</div>
 	
 </center>
 </body>

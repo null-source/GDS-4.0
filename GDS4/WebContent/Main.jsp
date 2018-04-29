@@ -36,11 +36,11 @@ body {
 	<div
 		style='position: background; z-index: 0; left: 0; top: 0; width: 100%; height: 50%'>
 		<center>
-		<img src='Blue-Apron.png' style='width: 598px; height: 290px' alt='[]' />
+		<img src='gds-welcome.gif' style='width: 524px; height: 274px' alt='[]' />
 		</center>
 	</div>
 	<div style="position: absolute; bottom: 5px; background-color: linen">
-	    <a href="login.jsp">EMPLOYEES</a>
+	    <a href="EmployeeLogin.jsp">EMPLOYEES</a>
 	</div>
 
 </body>
