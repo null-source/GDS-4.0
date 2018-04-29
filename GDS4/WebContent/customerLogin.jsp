@@ -35,7 +35,7 @@ p {
 				<td>Email<br><input type="text" name="customersEmail"></td>
 			</tr>
 			<tr>
-				<td>Password<br><input type="text" name="customersPassword"></td>
+				<td>Password<br><input type="password" name="customersPassword"></td>
 			</tr>
 			<tr>
 				<td><input type="submit" value="Login"></td>

@@ -8,9 +8,36 @@ body {
 	background-color: linen;
 	font-family: "helvetica";
 }
-table, th, td {
-    border: 1px solid black;
+
+#table-wrapper {
+  position:relative;
 }
+#table-scroll {
+  height:150px;
+  overflow:auto;  
+  margin-top:20px;
+}
+#table-wrapper table {
+  width:50%;
+    
+}
+#table-wrapper table * {
+  background:linen;
+  color:black;
+}
+#table-wrapper table thead th .text {
+  position:absolute;   
+  top:-20px;
+  z-index:2;
+  height:20px;
+  width:35%;
+  border:1px solid black;
+}
+td {
+  text-align: center;
+  vertical-align: middle;
+}
+
 </style>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>GDS</title>
@@ -31,18 +58,36 @@ table, th, td {
 <br>
 <br>
 <center>
-	<table>
-		<col width="80">
-  		<col width="400">
-		<tr>
-			<th>Price</th>
-			<th>Item</th>
-		</tr>
-		<tr>
-			<td>19.99</td>
-			<td>Golden Apple</td>
-		</tr>
-	</table>
+<div id="table-wrapper">
+  <div id="table-scroll">
+    <table>
+        <thead>
+            <tr>
+                <th><span class="Price">Price</span></th>
+                <th><span class="Item">Item</span></th>
+            </tr>
+        </thead>
+        <tbody>
+<tr> <td>29.99</td> <td>Golden Apple</td>
+<tr> <td>.99</td> <td>Red Apple</td> 
+<tr> <td>5.99</td> <td>Lettuce</td> 
+<tr> <td>5.99</td> <td>Milk</td> 
+<tr> <td>5.99</td> <td>Water</td> 
+<tr> <td>5.99</td> <td>Bread</td> 
+<tr> <td>5.99</td> <td>Ham</td> 
+<tr> <td>5.99</td> <td>Bagel</td> 
+<tr> <td>5.99</td> <td>Mayo</td> 
+<tr> <td>12.99</td> <td>Coffee</td> 
+<tr> <td>5.99</td> <td>Creamer</td> 
+<tr> <td>5.99</td> <td>Goat cheese</td> 
+<tr> <td>5.99</td> <td>Pizza</td> 
+<tr> <td>5.99</td> <td>Yogurt</td> 
+
+        </tbody>
+    </table>
+  </div>
+</div>
+	
 	
 </center>
 </body>

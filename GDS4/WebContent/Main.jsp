@@ -21,7 +21,8 @@ body {
 	<table>
 		<tr>
 			<td><input type="text" name="searchProducts"></td>
-			<td><input type="submit" value="SEARCH"></td>
+			<!-- SEARCH BUTTON, TEMP LINKED TO searchPage.jsp -->
+			<td><a href="searchPage.jsp"><input type="submit" value="SEARCH"></a></td>
 			<td><input type="submit" value="CART"></td>
 		</tr>
 	</table>
