@@ -4,68 +4,77 @@ import java.sql.Date;
 public class Grocery {
 	
 	public double price;
-	public Date date;
-	public String description;
+	public Date lastDt;
+	public String desc;
 	public String area;
 	public String name;
-	public String itemID;
+	public String itemId;
+	public int quantity;
 	
-	public Grocery(double price, Date date, String description, String area, String name, String itemID)
-	{
-		this.price = price;
-		this.date = date;
-		this.description = description;
-		this.area = area;
+	public Grocery (String itemId, String name, String desc, double price, int quantity, Date lastDt, String area) {
+		this.itemId = itemId;
 		this.name = name;
-		this.itemID = itemID;
+		this.desc = desc;
+		this.price = price;
+		this.quantity = quantity;
+		this.lastDt = lastDt;
+		this.area = area;
 	}
 
 	public double getPrice() {
 		return price;
 	}
-	
+
 	public void setPrice(double price) {
 		this.price = price;
 	}
-	
-	public Date getDate() {
-		return date;
+
+	public Date getLastDt() {
+		return lastDt;
 	}
-	
-	public void setDate(Date date) {
-		this.date = date;
+
+	public void setLastDt(Date lastDt) {
+		this.lastDt = lastDt;
 	}
-	
-	public String getDescription() {
-		return description;
+
+	public String getDesc() {
+		return desc;
 	}
-	
-	public void setDescription(String description) {
-		this.description = description;
+
+	public void setDesc(String desc) {
+		this.desc = desc;
 	}
-	
+
 	public String getArea() {
 		return area;
 	}
-	
+
 	public void setArea(String area) {
 		this.area = area;
 	}
-	
+
 	public String getName() {
 		return name;
 	}
-	
+
 	public void setName(String name) {
 		this.name = name;
 	}
-	
-	public String getItemID() {
-		return itemID;
+
+	public String getItemId() {
+		return itemId;
 	}
-	
-	public void setItemID(String itemID) {
-		this.itemID = itemID;
+
+	public void setItemId(String itemId) {
+		this.itemId = itemId;
+	}
+
+	public int getQuantity() {
+		return quantity;
+	}
+
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
 	}
 	
 }
