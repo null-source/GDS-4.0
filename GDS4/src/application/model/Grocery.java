@@ -77,4 +77,13 @@ public class Grocery {
 		this.quantity = quantity;
 	}
 	
+	public String toString() {
+		
+		String retString = this.itemId + " " + this.name + " " + 
+						   this.desc + " " + this.price + " " + this.quantity + " " +
+						   this.lastDt + " " + this.area;
+		
+		return retString;
+	}
+	
 }
