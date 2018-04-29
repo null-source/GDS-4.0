@@ -17,7 +17,7 @@ td {
 <title>Register</title>
 </head>
 <body>
-<a href="Main.jsp">BACK</a>
+<a href="Main.jsp">HOME</a>
 	<center>
 		<h1>Create a new account</h1>
 		<table>

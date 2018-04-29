@@ -17,7 +17,7 @@ td {
 <title>Employees</title>
 </head>
 <body>
-<a href="Main.jsp">BACK</a>
+<a href="Main.jsp">HOME</a>
 	<center>
 		<h1>
 			<i> EMPLOYEES</i>

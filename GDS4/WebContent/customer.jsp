@@ -13,7 +13,9 @@ body {
 </style>
 </head>
 <body>
-customer
-<button type="button" name="logout" onclick="history.back()">logout</button>
+Customer
+	<div style="position: absolute; bottom: 5px; background-color: linen">
+	    <button type="button" name="logout" onclick="history.back()">logout</button>
+	</div>
 </body>
 </html>

@@ -14,7 +14,7 @@ body {
 <title>GDS - Financial Information</title>
 </head>
 <body>
-<a href="manager.jsp">BACK</a>
+<a href="manager.jsp">HOME</a>
 <center>
 	<h1><i>Financial Information</i></h1>
 	$$$$

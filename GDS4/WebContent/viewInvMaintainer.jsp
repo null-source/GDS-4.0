@@ -14,7 +14,7 @@ body {
 <title>GDS - Inventory</title>
 </head>
 <body>
-<a href="maintainer.jsp">BACK</a>
+<a href="maintainer.jsp">HOME</a>
 <center>
 	<h1><i>VIEW INVENTORY</i></h1>
 	nice stuff here 

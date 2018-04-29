@@ -13,7 +13,7 @@ body {
 <title>Maintainer</title>
 </head>
 <body>
-<a href="login.jsp">BACK</a>
+<a href="login.jsp">HOME</a>
 <center>
 	<h1><i>MAINTAINER</i></h1>
 		<a href="viewInvMaintainer.jsp">View inventory</a>
@@ -43,6 +43,8 @@ body {
 		</table>
 	</center>
 </div>
-	<button type="button" name="logout" onclick="history.back()">logout</button>
+	<div style="position: absolute; bottom: 5px; background-color: linen">
+	    <button type="button" name="logout" onclick="history.back()">logout</button>
+	</div>
 </body>
 </html>

@@ -38,16 +38,9 @@ body {
 		<img src='Blue-Apron.png' style='width: 598px; height: 290px' alt='[]' />
 		</center>
 	</div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<a href="login.jsp">EMPLOYEES</a>
+	<div style="position: absolute; bottom: 5px; background-color: linen">
+	    <a href="login.jsp">EMPLOYEES</a>
+	</div>
 
 </body>
 </html>

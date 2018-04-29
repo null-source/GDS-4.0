@@ -27,7 +27,7 @@ p {
 <title>Login</title>
 </head>
 <body>
-<a href="Main.jsp">BACK</a>
+<a href="Main.jsp">HOME</a>
 	<center>
 		<h1>Login</h1>
 		<table>

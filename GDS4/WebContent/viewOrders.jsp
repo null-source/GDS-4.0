@@ -14,7 +14,7 @@ body {
 <title>GDS - Orders</title>
 </head>
 <body>
-<a href="shopper.jsp">BACK</a>
+<a href="shopper.jsp">HOME</a>
 <center>
 	<h1><i>VIEW ORDERS</i></h1>
 	<br>
