@@ -5,7 +5,7 @@
 <head>
 <style>
 body {
-	background-color: white;
+	background-color: red;
 	font-family: "helvetica";
 }
 </style>
@@ -16,6 +16,9 @@ body {
 	<a href="Main.jsp">TAKE ME BACK HOME</a>
 	<br>
 	<center>
+		<h1>
+			<i>YOU HAVE COME HERE IN ERROR</i>
+		</h1>
 		<img src="welcome.png">
 	</center>
 </body>
