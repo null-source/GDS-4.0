@@ -8,14 +8,19 @@ body {
 	background-color: linen;
 	font-family: "helvetica";
 }
+td {
+  text-align: center;
+  vertical-align: middle;
+}
 </style>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Login</title>
+<title>Employees</title>
 </head>
 <body>
+<a href="Main.jsp">BACK</a>
 	<center>
 		<h1>
-			<i> G R O C E R Y &ensp; D E L I V E R Y &ensp; S E R V I C E</i>
+			<i> EMPLOYEES</i>
 		</h1>
 		<a href="shopper.jsp">SHOPPER</a> |
 		<a href="manager.jsp">MANAGER</a> |
@@ -27,7 +32,7 @@ body {
 	<div
 		style='position: background; z-index: 0; left: 0; top: 0; width: 100%; height: 50%'>
 		<center>
-		<img src='Blue-Apron.png' style='width: 598px; height: 290px' alt='[]' />
+		<img src='gds_logo.jpg' style='width: 329px; height: 150px' alt='[]' />
 		</center>
 	</div>
 <br>
@@ -35,7 +40,7 @@ body {
 		<center>
 			<table>
 				<tr>
-					<td><i>Email/Username</i></td>
+					<td><i>Employee ID</i></td>
 					<td><input type="text" name="username"></td>
 				</tr>
 				<tr>

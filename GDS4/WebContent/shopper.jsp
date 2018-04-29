@@ -14,7 +14,7 @@ body {
 </head>
 <body>
 <a href="login.jsp">BACK</a>
-	<center><h1><i>S H O P P E R </i></h1>
+	<center><h1><i>SHOPPER</i></h1>
 	<h4><u>Clock in/out</u></h4>
 	<a href="viewOrders.jsp">View orders</a>
 	</center>

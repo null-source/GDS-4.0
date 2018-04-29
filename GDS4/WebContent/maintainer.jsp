@@ -15,7 +15,7 @@ body {
 <body>
 <a href="login.jsp">BACK</a>
 <center>
-	<h1>MAINTAINER</h1>
+	<h1><i>MAINTAINER</i></h1>
 	<a href="viewInvMaintainer.jsp">View inventory</a>
 	<br>
 	<a href="maintainer.jsp">ALERTS</a>

@@ -14,7 +14,7 @@ body {
 </head>
 <body>
 <a href="login.jsp">BACK</a>
-	<center><h1><i>D R I V E R</i></h1>
+	<center><h1><i>DRIVER</i></h1>
 	<a href="viewOrdersDriver.jsp">View orders</a>
 	<br>
 	</center>

@@ -14,7 +14,7 @@ body {
 </head>
 <body>
 <a href="login.jsp">BACK</a>
-<center><h1><i>M A N A G E R </i></h1>
+<center><h1><i>MANAGER</i></h1>
 	<a href="viewOrdersManager.jsp">View orders</a>
 	<br>
 	<a href="viewInvManager.jsp">View inventory</a>
