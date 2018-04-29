@@ -1,3 +1,4 @@
+package application.controller;
 
 
 import java.io.IOException;
@@ -13,13 +14,13 @@ import javax.servlet.http.HttpServletResponse;
  * Servlet implementation class LoginCheck
  */
 @WebServlet("/LoginCheck")
-public class LoginCheck extends HttpServlet {
+public class Login extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public LoginCheck() {
+    public Login() {
         super();
         // TODO Auto-generated constructor stub
     }

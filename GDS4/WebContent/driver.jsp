@@ -13,7 +13,7 @@ body {
 </style>
 </head>
 <body>
-<a href="login.jsp">HOME</a>
+<a href="EmployeeLogin.jsp">HOME</a>
 	<center><h1><i>DRIVER</i></h1>
 	<a href="viewOrdersDriver.jsp">View orders</a>
 	<br>

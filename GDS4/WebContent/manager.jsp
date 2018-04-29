@@ -13,7 +13,13 @@ body {
 <title>Manager</title>
 </head>
 <body>
-<a href="login.jsp">HOME</a>
+<!-- Redirects user to EmployeeLogin.jsp if they are logged out -->
+<%
+	//if(session.getAttribute("username") == null) {
+		//response.sendRedirect("EmployeeLogin.jsp");
+	//}
+%>
+<a href="EmployeeLogin.jsp">HOME</a>
 <center><h1><i>MANAGER</i></h1>
 	
 	<a href="viewOrdersManager.jsp">View orders</a>
@@ -28,7 +34,9 @@ body {
 	<br>
 	<br>
 	<div style="position: absolute; bottom: 5px; background-color: linen">
-	    <button type="button" name="logout" onclick="history.back()">logout</button>
+	<form action="EmployeeLogin">
+	    <input type="submit" value="Logout">
+	</form>
 	</div>
 </body>
 </html>

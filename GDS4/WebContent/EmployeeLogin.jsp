@@ -36,7 +36,7 @@ td {
 		</center>
 	</div>
 <br>
-	<form method="post" action="LoginCheck">
+	<form method="get" action="EmployeeLogin">
 		<center>
 			<table>
 				<tr>
@@ -54,6 +54,8 @@ td {
 				</tr>
 				<tr>
 					<td></td>
+					<!-- "Forgot Password" should navigate to a "Forgot Password" .jsp page
+					Forgot Password in this case is acting like a submit button -->
 					<td><input type="submit" value="Forgot Password"></td>
 				</tr>
 

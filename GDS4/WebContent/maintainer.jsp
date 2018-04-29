@@ -13,7 +13,7 @@ body {
 <title>Maintainer</title>
 </head>
 <body>
-<a href="login.jsp">HOME</a>
+<a href="EmployeeLogin.jsp">HOME</a>
 <center>
 	<h1><i>MAINTAINER</i></h1>
 		<a href="viewInvMaintainer.jsp">View inventory</a>
