@@ -13,18 +13,27 @@ body {
 </style>
 </head>
 <body>
-<a href="EmployeeLogin.jsp">HOME</a>
-	<center><h1><i>DRIVER</i></h1>
-	<a href="viewOrdersDriver.jsp">View orders</a>
-	<br>
+	<a href="EmployeeLogin.jsp">HOME</a>
+	<center>
+		<h1>
+			<i>DRIVER</i>
+		</h1>
+		<a href="viewOrdersDriver.jsp">View orders</a> 
+		<br>
+		<br>
+		<button onclick="getElementById('clock').innerHTML=Date()">Clock
+			in/out</button>
+
+		<p id="clock"></p>
 	</center>
 
 	<div
 		style='position: background; z-index: 0; left: 0; top: 0; width: 100%; height: 100%'>
-		<img src='deliveryMan.jpg' style='width: 115px; height: 105px' alt='[]' />
+		<img src='deliveryMan.jpg' style='width: 115px; height: 105px'
+			alt='[]' />
 	</div>
 	<div style="position: absolute; bottom: 5px; background-color: linen">
-	    <button type="button" name="logout" onclick="history.back()">logout</button>
+		<button type="button" name="logout" onclick="history.back()">logout</button>
 	</div>
 </body>
 </html>

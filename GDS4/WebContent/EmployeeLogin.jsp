@@ -52,12 +52,12 @@ td {
 					<td><input type="submit" value="Login"></td>
 
 				</tr>
-				<tr>
+				<!--  <tr>
 					<td></td>
-					<!-- "Forgot Password" should navigate to a "Forgot Password" .jsp page
-					Forgot Password in this case is acting like a submit button -->
+					"Forgot Password" should navigate to a "Forgot Password" .jsp page
+					Forgot Password in this case is acting like a submit button 
 					<td><input type="submit" value="Forgot Password"></td>
-				</tr>
+				</tr> -->
 
 
 			</table>

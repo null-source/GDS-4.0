@@ -41,32 +41,16 @@ td {
 	text-align: center;
 	vertical-align: middle;
 }
-
-div.c {
-	text-align: center;
-}
 </style>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>GDS</title>
+<title>Your cart</title>
 </head>
 <body>
-	<a href="Main.jsp">HOME</a>
+	<a href="searchPage.jsp">HOME</a>
 	<center>
 		<h1>
-			<i> G R O C E R Y &ensp; D E L I V E R Y &ensp; S E R V I C E</i>
+			<i>CART</i>
 		</h1>
-	</center>
-	<div>
-		<center>
-			<input type="text" id="mySearch" placeholder="Search for something..">
-			<input type="submit" id="mySubmit" value="SEARCH">
-			<a href="cart.jsp"><input type="submit" id="cart" value="CART"></a>
-		</center>
-	</div>
-	<hr width=500>
-	<br>
-	<br>
-	<center>
 		<div id="table-wrapper">
 			<div id="table-scroll">
 				<table>
@@ -84,23 +68,8 @@ div.c {
 							<td>.99</td>
 							<td>Red Apple</td>
 						<tr>
-							<td>5.99</td>
-							<td>Lettuce</td><tr>
-							<td>5.99</td>
-							<td>Milk</td>
-						<tr>
-							<td>5.99</td>
+							<td>29.99</td>
 							<td>Water</td>
-						<tr>
-							<td>5.99</td>
-							<td>Bread</td>
-						
-						<tr>
-							<td>5.99</td>
-							<td>Ham</td>
-						<tr>
-							<td>5.99</td>
-							<td>Bagel</td>
 						<tr>
 							<td>5.99</td>
 							<td>Mayo</td>
@@ -113,20 +82,13 @@ div.c {
 						<tr>
 							<td>5.99</td>
 							<td>Goat cheese</td>
-						<tr>
-							<td>5.99</td>
-							<td>Pizza</td>
-						<tr>
-							<td>5.99</td>
-							<td>Yogurt</td>
 					</tbody>
 				</table>
 			</div>
 		</div>
-		<div class="c">
-			<input type="submit" value="Add to cart">
-		</div>
-
+		<br>
+		<input type="submit" id="removeItem" value="REMOVE ITEM">
+		<a href="checkout.jsp"><input type="submit" id="CHECKOUT" value="CHECKOUT"></a>
 	</center>
 </body>
 </html>
